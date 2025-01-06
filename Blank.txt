@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for You 💖</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7e0e0;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5c8d;
+            color: white;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .heart {
+            font-size: 80px;
+            color: red;
+            margin: 20px 0;
+        }
+        .message {
+            font-size: 20px;
+            margin: 20px;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e63939;
+        }
+        footer {
+            margin-top: 20px;
+            background-color: #ff5c8d;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Just For You 💖</h1>
+    </header>
+    <main>
+        <div class="heart">❤️</div>
+        <p class="message">
+            Hey! Just wanted to say, you're always on my mind.<br>
+            I hope this little message makes you smile! 😊<br>
+            You mean a lot to me, and I’m so glad we’ve connected. 💫
+        </p>
+        <button onclick="alert('You’re amazing and I’m lucky to know you! 💖')">Click Me!</button>
+    </main>
+    <footer>
+        <p>Made with ❤️</p>
+    </footer>
+</body>
+</html>
